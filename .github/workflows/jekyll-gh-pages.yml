@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mohamedalaa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>mohamedalaa</h1>
+            <img src="WhatsApp Image 2024-10-28 at 13.38.00_e31a27f5.jpg" alt="Your Photo" class="profile-photo">
+            <p>front end developer</p>
+        </header>
+        
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email:mohamedalaa@gmail.com</p>
+            <p>Phone: 01127425996</p>
+            <p>Address: kafrELzayat.Gharbia</p>
+        </section>
+
+        <section class="experience">
+            <h2>Education</h2>
+            <div class="job">
+                <li>Higher Institute for Computers and Information system-tanta</li>
+                
+            
+        </section>
+
+        <section class="education">
+            <h2>Languages</h2>
+            <li>Arabic</li>
+            <li>English</li>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <label>HTML</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>CSS</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <label>java</label>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 50%;">50%</div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #0f0e0e;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+header {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+.job, .degree {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 20px; 
+    border-radius: 5px;
+}
+
+</body>
+</html>
