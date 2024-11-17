@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عرض القضايا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>عرض القضايا</h1>
+        <nav>
+            <a href="index.html">الرجوع إلى الصفحة الرئيسية</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="view-cases">
+            <h2>جميع القضايا المسجلة</h2>
+            <input type="text" id="search-case" placeholder="ابحث عن قضية">
+            <table>
+                <thead>
+                    <tr>
+                        <th>اسم العميل</th>
+                        <th>رقم الهاتف</th>
+                        <th>تفاصيل القضية</th>
+                        <th>معاد الجلسة</th>
+                        <th>الحكم</th>
+                        <th>ملف القضية</th>
+                        <th>إزالة</th>
+                    </tr>
+                </thead>
+                <tbody id="cases-list">
+                    <!-- القضايا المسجلة ستظهر هنا بواسطة JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="cases.js"></script>
+</body>
+</html>
